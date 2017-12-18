@@ -13,21 +13,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#555"
       },
       "shape": {
-        "type": "polygon",
+        "type": "triangle",
         "stroke": {
-          "width": 0,
-          "color": "#000000"
+          "width": 2,
+          "color": "#FFFFFF"
         },
         "polygon": {
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
+          "src": "img/antenna-2.png",
+          "width": 64,
+          "height": 64
         }
       },
       "opacity": {
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "size": {
-        "value": 3,
+        "value": 10,
         "random": true,
         "anim": {
           "enable": false,
